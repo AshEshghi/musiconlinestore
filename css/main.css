@@ -1,0 +1,167 @@
+/*
+    version:1.0.0
+    author: A.Eshghi
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: Kalam;
+    src: url('../fonts/Kalam-Regular.ttf');
+}
+@font-face{
+    font-family: Pacifio;
+    src: url('../fonts/Pacifico-Regular.ttf');
+}
+body{
+    background-color: white;
+}
+header.mainhead{
+    background-image: linear-gradient(to right, #c0065f, #920d58, #66114b, #3d0e38, #1d0320);
+}
+header.mainhead>p>img{
+    width: auto;
+    height: auto;
+    box-sizing: content-box;
+    border-width: 8px;
+    border-style: solid;
+    border-image: linear-gradient(to left bottom, #c0065f, #920d58, #66114b, #3d0e38, #1d0320);
+    border-image-slice: 1;
+}
+header.mainhead{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header.mainhead>.centered>h1{
+    font-family: Pacifio;
+    font-weight: 600;
+}
+nav{
+    background-image: linear-gradient(to right, #c0065f, #920d58, #66114b, #3d0e38, #1d0320);
+
+}
+nav>h4{
+    width: 100%;
+}
+nav>h4>a{
+    font-size: 20px;
+    font-family: Kalam;
+    font-style: normal;
+    text-decoration: none;
+    display: inline;
+    margin-top: 2px;
+    color: midnightblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 90%;
+    padding: 0 10px;
+    background-color: rgb(255, 58, 163);
+    text-align: center;
+    border-radius: 30px;
+    transition: all 300ms linear;
+}
+nav>h4>a:hover{
+    background-color: #66114b;
+    transform: scale(0.9,0.9);
+}
+section.bs{
+    width: 100%;
+    height: auto;
+    background: url('../images/musicwal2.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+section.bs>div{
+    background-color: #1d0320;
+    color: lightpink; 
+    text-align: center;
+    transition: all 300ms linear;
+}
+section.bs>div:hover{
+    background-color: blueviolet;
+}
+section.bs>div>h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section.bs>table{
+    width: 100%;
+    font-size: 30px;
+}
+h5{
+    color: whitesmoke;
+    font-family: Kalam;
+}
+tr>td>a>img{
+    border-radius: 30px;
+}
+div.slide{
+    width: 100%;
+    height: auto;
+    background: url('../images/micwal.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+section.slider>h1{
+    background-color: thistle;
+    color: #6D4165; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section.slider>h2{
+    margin-top: 20px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    margin-bottom: 20px;
+}
+section.slider>h2>div>a.alist>img{
+    width: 43%;
+    border-radius: 10px;
+    margin-right: 2%;
+}
+section.slider>h2>div>a.indie>img{
+    width: 43%;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+section.slider2>h2>a.second>img{
+    width: 20%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+section.slider2>h2>a.third>img{
+    width: 20%;
+    border-radius: 10px;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 20px;
+}
+section.slider2>h2>a.fourth>img{
+    width: 98%;
+    margin-top: 20px; 
+    height: 70%;
+    border-radius: 50px;
+}
+details.info{
+    font-size: xx-large; 
+    background-image: linear-gradient(to right, #c0065f, #920d58, #66114b, #3d0e38, #1d0320);
+    color: beige;
+    font-family: Pacifio; 
+    margin-bottom: 0px;
+}
+details.info>a>img{
+    border-radius: 30px;
+    height: 60%;
+}
+footer.footer{
+    font-size: 20px; 
+    font-family: Pacifio;
+    color: whitesmoke; 
+    background-image: linear-gradient(to right, #ff0064, #ea5acb, #9a97ff, #00c0ff, #00dbfb);
+}
